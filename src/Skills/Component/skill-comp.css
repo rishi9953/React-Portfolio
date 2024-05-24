@@ -1,0 +1,18 @@
+.Skill-comp {
+    background-color: #030617;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Skill-comp .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Skill-comp .images .image1 {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}

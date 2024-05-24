@@ -13,13 +13,13 @@
     height: 50px;
     width: 50px;
     padding-top: 5%;
-    padding-left: 45%;
+    padding-left: 43%;
     fill: yellow;
 }
 
 .servicecomp h4 {
-    padding-left: 45%;
-
+    padding-left: 42%;
+    text-align: left;
     color: yellow;
 }
 

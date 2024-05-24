@@ -1,0 +1,34 @@
+.experience-comp {
+    width: 400px;
+    height: 50vb;
+    margin: 5px;
+    background-color: #030617;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: start;
+    align-items: start;
+}
+
+.experience-comp h5 {
+    text-align: start;
+    color: yellow;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.experience-comp .skill {
+    text-align: start;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.experience-comp p {
+    color: #9CA3AF;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
