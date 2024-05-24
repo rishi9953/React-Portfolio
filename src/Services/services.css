@@ -1,0 +1,28 @@
+.service {
+    background-color: #111828;
+    width: 100%;
+}
+
+h4 {
+    padding-left: 50px;
+    padding-bottom: 20px;
+    color: white;
+
+}
+
+.paragraph {
+    text-align: start;
+    color: #9CA3AF;
+    width: 100vb;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+
+.service-component {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}

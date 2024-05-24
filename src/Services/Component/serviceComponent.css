@@ -1,0 +1,29 @@
+.servicecomp {
+    width: 400px;
+    height: 50vb;
+    margin: 5px;
+    background-color: #030617;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicecomp .image {
+    height: 50px;
+    width: 50px;
+    padding-top: 5%;
+    padding-left: 45%;
+    fill: yellow;
+}
+
+.servicecomp h4 {
+    padding-left: 45%;
+
+    color: yellow;
+}
+
+.servicecomp p {
+    color: #9CA3AF;
+    text-align: center;
+}

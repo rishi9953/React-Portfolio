@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+
+}
+
+
+.header ul {
+    width: 200vb;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #030617;
+}
+
+
+
+li {
+    float: right;
+
+}
+
+li a {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 16px 16px; */
+}
+
+#service {
+    padding-right: 30px;
+}
+
+.about {
+    float: left;
+}
