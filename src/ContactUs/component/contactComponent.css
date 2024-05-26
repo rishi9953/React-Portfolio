@@ -1,0 +1,21 @@
+.contactComponent {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactComponent .myaddress p {
+    text-align: start;
+}
+
+.contactComponent .message {
+    float: right;
+
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+}

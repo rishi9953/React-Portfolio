@@ -2,7 +2,7 @@ import './aboutMe.css';
 import image from './me.jpg'
 function AboutMe() {
     return (<>
-        <div className="body">
+        <div className="body" id='hom'>
             <div className="aboutMe">
                 <h4>
                     Hello,Welcome

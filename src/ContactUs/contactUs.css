@@ -1,0 +1,16 @@
+.contactUs {
+    width: 100%;
+    background-color: #030617;
+    padding-top: 30px;
+}
+
+.contactUs h2 {
+    color: white;
+    text-align: center;
+}
+
+.contactUs p {
+    color: #9CA3AF;
+    text-align: center;
+
+}

@@ -1,9 +1,10 @@
 import Header from './Header/header';
 import AboutMe from './aboutMe/aboutMe';
 import MyServices from './Services/services';
-import './App.css';
 import MyExperience from './experience/experience';
 import MySkills from './Skills/skills';
+import ContactUs from './ContactUs/contactUs';
+import './App.css';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MyServices></MyServices>
       <MyExperience></MyExperience>
       <MySkills></MySkills>
+      <ContactUs></ContactUs>
     </>
 
 

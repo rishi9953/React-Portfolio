@@ -3,6 +3,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 .header ul {
     width: 200vb;
@@ -16,12 +20,13 @@
 
 
 
+
 li {
     float: right;
 
 }
 
-li a {
+li {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
