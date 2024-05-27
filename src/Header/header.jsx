@@ -11,9 +11,14 @@ function Header() {
         <div className="header">
             <ul>
                 <li onClick={(() => {
-                    scrollToTarget('ser');
+                    scrollToTarget('footer');
                 })}>
-                    <a id='service'>SERVICES</a>
+                    <a id='about'>ABOUT</a>
+                </li>
+                <li onClick={(() => {
+                    scrollToTarget('cont');
+                })}>
+                    <a>CONTACT</a>
                 </li>
                 <li onClick={(() => {
                     scrollToTarget('exp');
@@ -21,14 +26,9 @@ function Header() {
                     <a>EXPERIENCES</a>
                 </li>
                 <li onClick={(() => {
-                    scrollToTarget('con');
+                    scrollToTarget('ser');
                 })}>
-                    <a>CONTACT</a>
-                </li>
-                <li onClick={(() => {
-                    scrollToTarget('abo');
-                })}>
-                    <a>ABOUT</a>
+                    <a id='service'>SERVICES</a>
                 </li>
                 <li onClick={(() => {
                     scrollToTarget('hom');

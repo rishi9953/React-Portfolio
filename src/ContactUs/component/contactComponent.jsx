@@ -2,14 +2,26 @@ import './contactComponent.css'
 function ContactComponent() {
     return <div className='contactComponent'>
         <div className='myaddress'>
-            <p>Address_c-120-A Majlis Park Delhi 110033</p>
-            <p>Phone_+919350413656</p>
-            <p>Email_rk5680179@gmail.com</p>
+
+            <p>
+                <span style={{ color: 'yellow' }}>
+                    Address__
+                </span>
+                c-120-A Majlis Park Delhi 110033</p>
+            <p>
+                <span style={{ color: 'yellow' }}>
+                    Phone__
+                </span>
+                +919350413656</p>
+            <p>
+                <span style={{ color: 'yellow' }}>
+                    Email__
+                </span>rk5680179@gmail.com</p>
         </div>
-        <div className='message'>
-            <input type="text" />
-            <input type="text" />
-            <button>Submit</button>
+        <div className='textfields'>
+            <input type="text" placeholder='Name' id='name' />
+            <input type="text" placeholder='Message' id='message' />
+            <button className='submit-Buton'>Submit</button>
         </div>
 
     </div>

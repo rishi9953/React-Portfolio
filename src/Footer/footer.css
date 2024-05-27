@@ -1,0 +1,22 @@
+.social {
+    width: 100%;
+    background-color: #030617;
+}
+
+.social h4 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.social p {
+    color: #9CA3AF;
+    text-align: center;
+
+}
+
+.social-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}

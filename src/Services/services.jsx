@@ -17,12 +17,15 @@ function MyServices() {
     const [data] = useState(map);
     return (<>
         <div className="service" id='ser'>
-            <h4>My Services</h4>
+            <h4>My
+                <span style={{ color: 'yellow' }}>
+                    Services
+                </span>
+            </h4>
             <div className='paragraph'>
                 <p>Specializing in Flutter development, I craft sleek and responsive mobile applications tailored to your unique needs. From UI design to seamless functionality, I deliver top-notch solutions for your digital ventures</p>
             </div>
             <div className='service-component'>
-
                 <ServiceComponent message={data[0].name} Myicon={data[0].icon}></ServiceComponent>
                 <ServiceComponent message={data[1].name} Myicon={data[1].icon}></ServiceComponent>
                 <ServiceComponent message={data[2].name} Myicon={data[2].icon}></ServiceComponent>
