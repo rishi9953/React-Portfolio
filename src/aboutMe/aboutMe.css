@@ -9,12 +9,40 @@
     z-index: -1;
 }
 
+
+@media (max-width:800px) {
+    .body {
+        background-color: #111828;
+        display: block;
+        padding: 0;
+        height: 100vb;
+        justify-content: start;
+        text-align: start;
+
+    }
+
+    .aboutMe {
+        width: 100%;
+    }
+
+    .image {
+        padding-top: 50px;
+        margin-left: -15%;
+    }
+
+    img {
+        float: right;
+        width: 600px;
+        height: 400px;
+    }
+}
+
 .aboutMe {
     width: 100%;
 }
 
 .aboutMe h4 {
-    
+
     padding-top: 100px;
     padding-bottom: 30px;
     text-align: start;
